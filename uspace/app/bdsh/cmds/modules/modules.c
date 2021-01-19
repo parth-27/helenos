@@ -66,6 +66,7 @@
 #include "unalias/entry.h"
 #include "grep/entry.h"
 #include "head/entry.h"
+#include "wc/entry.h"
 
 /*
  * Each .def function fills the module_t struct with the individual name, entry
@@ -95,6 +96,7 @@ module_t modules[] = {
 #include "unalias/unalias_def.inc"
 #include "grep/grep_def.inc"
 #include "head/head_def.inc"
+#include "wc/wc_def.inc"
 
 	{ NULL, NULL, NULL, NULL }
 };
