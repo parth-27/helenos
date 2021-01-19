@@ -61,6 +61,7 @@ src = files(
 	'cmds/modules/grep/grep.c',
 	'cmds/modules/head/head.c',
 	'cmds/modules/wc/wc.c',
+	'cmds/modules/basename/basename.c',
 	'compl.c',
 	'errors.c',
 	'exec.c',
